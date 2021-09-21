@@ -1,4 +1,4 @@
-// Code your design here
+
 module datatypes;
   logic [3:0] a;
   logic b;
