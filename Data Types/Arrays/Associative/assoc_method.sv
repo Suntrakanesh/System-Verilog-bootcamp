@@ -6,6 +6,7 @@ module tb;
               "RCB":"Virat",
               "MI":"Rohit",
              "KKR":"DK"};
+    $display("%p",array);// associative array will always sort in order of index
     array.first(f);
     $display("%s is the first element",f);
     array.last(f);
