@@ -3,7 +3,7 @@ class inside_fn;
   rand bit [3:0] val;
   constraint con{ data inside{[3:7]};val inside{4,5};}
 endclass
-
+//It can also be used with conditional expression also
 module main;
   initial begin
   inside_fn fun = new;
