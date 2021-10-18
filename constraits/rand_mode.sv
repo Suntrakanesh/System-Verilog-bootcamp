@@ -1,4 +1,4 @@
-// Code your design here
+
 class base;
   rand int a, b;
 endclass
