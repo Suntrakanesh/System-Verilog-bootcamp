@@ -7,7 +7,7 @@ endfunction
 
 module tb;
   initial begin
-    int fw,fr;
+    int fw,fr,fa;
     string line;
     
     fw = $fopen("verilog.txt","w");
@@ -27,5 +27,21 @@ module tb;
     end
          
     $fclose(fr);
+    fa = $fopen("verilog.txt","a");
+    for(int i=6;i<10;i++) begin
+      $fdisplay(fa,"Number: %d",i);
+    end
+    $fclose(fa);
+    
+    fr = $fopen("verilog.txt","r");
+    file_check(fr);
+    
+    while(!$feof(fr))begin
+      $fgets(line,fr);
+      $display("%s",line);
+    end
+         
+    $fclose(fr);
+    
   end
 endmodule
