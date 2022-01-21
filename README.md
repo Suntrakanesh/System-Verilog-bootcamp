@@ -27,6 +27,9 @@ This repository contains System Verilog practice code from basic to advance.
 * [Functional Coverage](https://github.com/Suntrakanesh/System-Verilog/tree/main/functional%20coverage)
 * [Assertion](https://github.com/Suntrakanesh/System-Verilog/tree/main/Assertion)
 
+
+## Syllabus
+
 <details>
 <summary>Data Types</summary>
   
