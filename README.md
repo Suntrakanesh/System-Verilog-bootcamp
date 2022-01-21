@@ -44,6 +44,7 @@ This repository contains System Verilog practice code from basic to advance.
 
 <details>
 <summary>Control Flow</summary>
+  
   + Loops
       + while/do-while loop
       + foreach loop
@@ -57,34 +58,42 @@ This repository contains System Verilog practice code from basic to advance.
   + Events
   + Functions
   + Tasks
+  
 </details>
 
 <details>
 <summary>Processes</summary>
+  
   + SystemVerilog Threads
       + fork join
       + fork join_any
       + fork join_none
   + Disable fork join
   + Wait fork
+  
 </details>
 
 <details>
 <summary>Communication</summary>
+  
   + Interprocess Communication
   + Semaphores
   + Mailboxes
+  
 </details>
 
 <details>
 <summary>Interface</summary>
+  
   + Interfaces, Interface bundles
   + Modports
   + Clocking Blocks
+  
 </details>
 
 <details>
 <summary>Class</summary>
+  
   + Class, Class Handles and Objects
   + Constructors
   + this pointer
@@ -99,10 +108,12 @@ This repository contains System Verilog practice code from basic to advance.
   + extern keyword
   + Abstract Class/Pure Methods
   + Randomization
+  
 </details>
 
 <details>
 <summary>Constraints</summary>
+  
   + Random variables
   + Constraint blocks
   + Array Randomization
@@ -120,20 +131,25 @@ This repository contains System Verilog practice code from basic to advance.
   + Disable Constraints
   + Disable Randomization
   + Random Weighted Case
+  
 </details>
 
 <details>
 <summary>Misc Constructs</summary>
+  
   + Program Block
   + Dynamic Casting
   + Packages
   + Commandline Input
   + File Operations
   + Scope Resolution Operator
+  
 </details>
 
 <details>
 <summary>Functional Coverage</summary>
+  
   + Functional Coverage
   + Covergroup & Coverpoint, Coverpoint bins
+  
 </details>
